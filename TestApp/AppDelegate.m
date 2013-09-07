@@ -10,9 +10,20 @@
 
 @implementation AppDelegate
 
+@synthesize myButton = _myButton;
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+    
+    BOOL isEnabled = [_myButton isEnabled];
+
+
+}
+
+- (IBAction)myButton_Click:(id)sender
+{
+    [_myButton setTitle:@"Hello!"];
 }
 
 @end

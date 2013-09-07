@@ -13,6 +13,7 @@
 		51B43C4817DB53DE00E5D9D9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 51B43C4617DB53DE00E5D9D9 /* Credits.rtf */; };
 		51B43C4B17DB53DE00E5D9D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B43C4A17DB53DE00E5D9D9 /* AppDelegate.m */; };
 		51B43C4E17DB53DE00E5D9D9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51B43C4C17DB53DE00E5D9D9 /* MainMenu.xib */; };
+		51B43C5617DB586200E5D9D9 /* TableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B43C5517DB586200E5D9D9 /* TableViewDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		51B43C4917DB53DE00E5D9D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		51B43C4A17DB53DE00E5D9D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		51B43C4D17DB53DE00E5D9D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		51B43C5417DB586200E5D9D9 /* TableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDelegate.h; sourceTree = "<group>"; };
+		51B43C5517DB586200E5D9D9 /* TableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				51B43C4917DB53DE00E5D9D9 /* AppDelegate.h */,
 				51B43C4A17DB53DE00E5D9D9 /* AppDelegate.m */,
 				51B43C4C17DB53DE00E5D9D9 /* MainMenu.xib */,
+				51B43C5417DB586200E5D9D9 /* TableViewDelegate.h */,
+				51B43C5517DB586200E5D9D9 /* TableViewDelegate.m */,
 				51B43C3E17DB53DE00E5D9D9 /* Supporting Files */,
 			);
 			path = TestApp;
@@ -168,6 +173,7 @@
 			files = (
 				51B43C4417DB53DE00E5D9D9 /* main.m in Sources */,
 				51B43C4B17DB53DE00E5D9D9 /* AppDelegate.m in Sources */,
+				51B43C5617DB586200E5D9D9 /* TableViewDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
